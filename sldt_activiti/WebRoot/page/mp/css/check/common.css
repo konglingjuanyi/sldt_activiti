@@ -1,0 +1,356 @@
+#top{
+	margin-left: 15px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+}
+#top_color{
+	margin: 5px;
+}
+
+#searchDiv{
+	height: 1px;
+	width: 775px;
+	float: left;
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}
+.searchCondition{
+	width: 95px;
+	margin-right: 15px;
+}
+
+	/* 分页条*/
+.search_page_left_check {
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-top: 0;
+	margin-right: 15px;
+	z-index: 1;
+	background-image: url(../../imgs/ny_16.png);
+}
+.search_page_right_check {
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-top: 0;
+	z-index: 2;
+	background-image: url(../../imgs/ny_18.png);
+}
+.search_page_mid_check {
+	float: left;
+	width: 35px;
+	height: 17px;
+	margin-top: 0;
+	margin-right: 5px;
+	z-index: 3;
+	font-family: "宋体";
+	font-size: 16px;
+	color: #080808;
+}
+
+.showDivAltDetail {
+	width:600px;
+	height:150px; 
+	padding:10px; 
+	overflow:auto;
+	border:1px solid #ccc; 
+}
+.data_table_alt_detail {
+	border-collapse: collapse;
+	width:791; 
+	border:0;
+	cellpadding:0; 
+	cellspacing:0;
+	table-layout: fixed;
+	
+}
+.data_table_alt_detail th {
+	font-family: "����";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	background-color: #ffe7da;
+	text-align: center;
+	height: 30px;
+	/*width: auto;
+	 line-height:200%; */
+	border: 1px solid #e0e0e0;
+	
+}
+.data_table_alt_detail td {
+	font-family: "����";
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	height: 25px;
+	width: auto;
+	border: 1px solid #e0e0e0;
+	word-break: break-all;
+    word-wrap:break-word;
+}
+
+#handle{
+	width: 920px;
+	height: 447px;
+	margin-left: 5px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	/* border: solid 1px #D3D3D3; */ 
+}
+
+.msg_table {
+	border-collapse: collapse;
+	width: 890px; 
+	border: 0;
+	cellpadding: 0; 
+	cellspacing: 0;
+	table-layout: fixed;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 25px; 
+}
+/* 奇数列 */ 
+.msg_table_odd { 
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	background-color: #ffe7da;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	border: 1px solid #e0e0e0;
+} 
+	
+/* 偶数列 */ 
+.msg_table_even { 
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	height: 40px;
+	width: 600px;
+	border: 1px solid #e0e0e0;
+	word-break: break-all;
+    word-wrap: break-word;
+}
+.msg_table_odd2 { 
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	background-color: #ffe7da;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	border: 1px solid #e0e0e0;
+} 
+.msg_table_even2 { 
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	align: center; 
+	height: 40px; 
+	width: 600px;
+	border: 1px solid #e0e0e0;
+	/* word-break: break-all;
+    word-wrap: break-word; */
+}
+
+/* #tableDiv{
+	width: 890px;
+	height: 270px;
+	border: 1px solid #e0e0e0;
+} */
+
+.data_table {
+	border-collapse: collapse;
+	width: 890px; 
+	border: 0;
+	cellpadding: 0; 
+	cellspacing: 0;
+	table-layout: fixed;
+	margin: 10px 0;
+}
+.data_table th {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	background-color: #ffe7da;
+	text-align: center;
+	height: 40px;
+	width: auto;
+	/* line-height:200%; */
+	border: 1px solid #e0e0e0;
+}
+.data_table td {
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	height: 40px;
+	width: auto;
+	border: 1px solid #e0e0e0;
+	word-break: break-all;
+    word-wrap:break-word;
+}
+/* 奇数行 */ 
+.data_table_odd { 
+	background-color: #f5f5f5; 
+} 
+/* 偶数行 */ 
+.data_table_even { 
+	background-color: #ffffff; 
+}
+
+.btnDiv{
+	width: 890px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.clear{
+	clear: both;
+}
+
+.list1{
+	list-style: none;
+	width:100%;
+	margin:0px;
+	padding:0px
+}
+
+.list1 li{
+	font-family: "宋体";
+	float:left;
+	width:25%;
+	line-height: 25px;
+	border-bottom:1px  dashed #ccc;
+
+	}
+	.list1 .cl1,.list1 .cl3{
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+	width:12%;
+	
+	}
+	
+	.list1 .tiledcl5{
+	font-size: 12px;
+	color: #080808;
+	width:83%;
+	
+	}
+	
+	.list1 .cl2,.list1 .cl4{
+	font-size: 12px;
+	color: #080808;
+	width:33%;
+	
+	}
+	
+	.ulstyle{
+	list-style: none;
+	width:100%;
+	margin:0px;
+	padding:0px
+}
+
+.but {
+	background:url(../../imgs/but/1.png);
+	height: 34px;
+	width: 83px;
+	font-size:15px;
+	font-family: "宋体";
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	cursor:pointer;
+}
+#handleTable tr.over td{
+    background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+}
+#reportInfo_table_ai tr.over td{
+    background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+}
+#reportInfo_table_cc tr.over td{
+    background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+}
+#reportInfo_table_if tr.over td{
+    background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+}
+#search_page_ai{
+	padding-top:10px;
+	position: relative;
+	border: 0px solid red;
+	overflow: hidden;
+	float: right;
+	margin-top: -10px;
+	margin-right: 15px;
+}
+#ai_table_div{
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+	/* height: 230px; */
+}
+#search_page_cc{
+	padding-top:10px;
+	position: relative;
+	border: 0px solid red;
+	overflow: hidden;
+	float: right;
+	margin-top: -10px;
+	margin-right: 15px;
+}
+#cc_table_div{
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+	/* height: 230px; */
+}
+#search_page_if{
+	padding-top:10px;
+	position: relative;
+	border: 0px solid red;
+	overflow: hidden;
+	float: right;
+	margin-top: -10px;
+	margin-right: 15px;
+}
+#if_table_div{
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+	/* height: 230px; */
+}

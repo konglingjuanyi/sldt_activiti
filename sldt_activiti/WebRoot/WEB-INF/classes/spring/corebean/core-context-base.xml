@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/aop  
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd  
+        http://www.springframework.org/schema/tx  
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+ <!-- 配置Spring上下文，以通过此工具类获取各bean类 -->
+    <bean id="SpringContextHelper" class="com.sldt.framework.common.SpringContextHelper" />
+        
+	<!-- 启用spring 注解 -->
+	<context:annotation-config />
+	<!-- 设定Spring 去哪些包中找Annotation -->
+	<context:component-scan base-package="com.sldt.mds.dmc" />
+	
+	<context:component-scan base-package="com.sldt.activiti.process" />
+	
+	
+	<!--annotation 的注解事务-->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	
+	<!-- 配置事务管理 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- 拦截器方式配置事物 -->
+	<!-- <tx:advice id="txAdviceHibernate" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="add*" propagation="REQUIRED" rollback-for="Exception"
+				no-rollback-for="" />
+			<tx:method name="adjust*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="assign*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="batch*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="cancel*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="change*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="create*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="delete*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="execute*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="export*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="import*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="insert*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="go*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="modify*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="notify*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="recover*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="release*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="remove*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="rename*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="reset*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="run*" propagation="REQUIRED" rollback-for="Exception" />
+			<tx:method name="save*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="set*" propagation="REQUIRED" rollback-for="Exception" />
+			<tx:method name="subscribe*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="swap*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="trigger*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="update*" propagation="REQUIRED"
+				rollback-for="Exception" />
+			<tx:method name="all*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="count*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="find*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="get*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="list*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="load*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="page*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+			<tx:method name="query*" propagation="NOT_SUPPORTED"
+				read-only="true" />
+		</tx:attributes>
+	</tx:advice> -->
+	<tx:advice id="txAdviceHibernate" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="*" propagation="REQUIRED" rollback-for="Exception" no-rollback-for=""/>
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+	    <aop:advisor pointcut="execution(* com.sldt.mds.dmc.*.*.service.*.*(..))"
+			advice-ref="txAdviceHibernate" />
+		<aop:advisor pointcut="execution(* com.sldt.mds.dmc..service.*.*(..))"
+			advice-ref="txAdviceHibernate" />
+	</aop:config>
+
+	<!-- DAO父类 -->
+	<bean id="hibernateDao" abstract="true">
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<!-- DAO基础类 -->
+	<bean id="baseDao" class="com.sldt.framework.orm.hibernate.dao.BaseDao">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+</beans>

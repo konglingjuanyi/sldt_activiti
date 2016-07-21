@@ -1,0 +1,16 @@
+.msg_input{
+	width: 608px;
+	height: 35px; 
+	font-family: "宋体";
+	font-size: 26px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}
+textarea{
+	font-family: "宋体";
+	font-size: 26px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}

@@ -1,0 +1,252 @@
+@charset "utf-8";
+#changeInfo{
+	width: 740px;
+	/* height: 495px;  */
+	/* margin: 65px 15px; */
+	height:550px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 15px;
+	padding-left:0px;
+	background-color: #FFFFFF;
+	border: solid 1px #D3D3D3;
+	float: left;
+	/* overflow: auto; */
+}
+#changeInfo_table_tbody tr.over td{
+	        background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+}
+#selected_table tr.over td{
+	        background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+}
+#selectedInfo{
+	width: 280px;
+	/* height: 495px; */
+	/* margin: 65px 15px; */
+	height: 550px;
+	margin-top: 15px;
+	/*margin-bottom: 10px;
+	margin-left: 15px;
+	margin-right: 10px; */
+	background-color: #FFFFFF;
+	border: solid 1px #D3D3D3;
+	float: left;
+}
+#selected_div{
+	width: 260px;
+	height: 480px; 
+	margin-left: 15px;
+	margin-top:3px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	/* border: solid 1px #D3D3D3; */ 
+}
+#arrow{
+	width: 55px;
+	height: 475px;
+	/* margin: 65px 0; */
+	margin-top: 65px;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	/* background-color: #FFFFFF;
+	border: solid 1px #D3D3D3; */
+	float: left;
+}
+#arrowDiv{
+	padding-top: 180px;
+	margin-right: 5px;
+}
+.arrowInput{
+	width: 50px;
+	height: 30px;
+}
+.clear{
+	clear: both;
+}
+#changeInfo_table_tdiv{
+	height: 435px;
+	overflow: auto;
+}
+.data_table_ci_tbody {
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 708px; 
+	border: 0;
+	cellpadding: 0; 
+	cellspacing: 0;
+	table-layout: fixed;
+	/* margin: 20px 15px; */
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 0;
+}
+.data_table_ci_tbody td {
+	/* font-family: "宋体"; */
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	height: 40px;
+	width: auto;
+	border: 1px solid #e0e0e0;
+	word-break: break-all;
+    word-wrap:break-word;
+}
+.data_table_ci {
+	border-collapse: collapse;
+	width: 708px; 
+	border: 0;
+	cellpadding: 0; 
+	cellspacing: 0;
+	table-layout: fixed;
+	/* margin: 20px 15px; */
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: 15px;
+	margin-right: 0;
+}
+.data_table_ci th {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	background-color: #ffe7da;
+	text-align: center;
+	height: 40px;
+	width: auto;
+	/* line-height:200%; */
+	border: 1px solid #e0e0e0;
+}
+.data_table_ci td {
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	height: 40px;
+	width: auto;
+	border: 1px solid #e0e0e0;
+	word-break: break-all;
+    word-wrap:break-word;
+}
+	/* 奇数列 */ 
+	.data_table_ci_odd { 
+	background-color: #f5f5f5; 
+	} 
+	
+	/* 偶数列 */ 
+	.data_table_ci_even { 
+	background-color: #ffffff; 
+	}
+#searchDiv{
+	margin-left: 15px;
+	padding-left:20px;
+	margin-top: 15px;
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}
+#btnDiv{
+	margin-left: 15px;
+	margin-top: 15px;
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+}
+.searchCondition{
+	width: 95px;
+	height:22px;
+	line-height:22px;
+	margin-right: 15px;
+}
+#selected_table {
+	border-collapse: collapse;
+	width: 243px; 
+	border: 0;
+	cellpadding: 0; 
+	cellspacing: 0;
+	table-layout: fixed;
+	margin: 20px 0;
+}
+#selected_table th {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	background-color: #ffe7da;
+	text-align: center;
+	height: 40px;
+	width: auto;
+	/* line-height:200%; */
+	border: 1px solid #e0e0e0;
+}
+#selected_table td {
+	font-family: "宋体";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	height: 40px;
+	width: auto;
+	border: 1px solid #e0e0e0;
+	word-break: break-all;
+    word-wrap:break-word;
+}
+
+	/* 分页条*/
+	
+#search_page{
+	position: relative;
+	overflow: hidden;
+	border: 0px solid red;
+	float: right;
+	top:13px;
+	right: 20px;
+}
+.search_page_left_ci {
+/* 	position: absolute;  
+ */	width: 18px;
+	height: 18px;
+	top:-20px;
+	float:left;
+	z-index: 1;
+	background-image: url(../imgs/ny_16.png);
+	left: 560px;
+}
+.search_page_right_ci {
+/* 	position: absolute; 
+ */	width: 18px;
+	height: 18px;
+	top: 255px;
+	z-index: 2;
+	float:left;
+	margin-left:10px;
+	left: 831px;
+	background-image: url(../imgs/ny_18.png);
+}
+
+.search_page_mid_ci {
+/* 	position: absolute; 
+ *//* 	width: 35px; */
+	height: 17px;
+	z-index: 3;
+	top: 252px;
+	float:left;
+	left: 793px;
+	margin-left:10px;
+	font-family: "宋体";
+	font-size: 16px;
+	color: #080808;
+}

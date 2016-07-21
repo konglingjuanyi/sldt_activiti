@@ -1,0 +1,2531 @@
+.ztree li span.button.sysview_ico_open {
+    margin-right:2px; background:url(../img/metamodel/sys_view_open.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.sysview_ico_close {
+    margin-right:2px; background:url(../img/metamodel/sys_view_close.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.view_ico_open {
+    margin-right:2px; background:url(../img/metamodel/docs_open.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.view_ico_close {
+    margin-right:2px; background:url(../img/metamodel/docs_close.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.folder_ico_close {
+    margin-right:2px; background:url(../img/metamodel/vfolder_close.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.folder_ico_open {
+    margin-right:2px; background:url(../img/metamodel/vfolder_open.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.default_ico_close {
+    margin-right:2px; background:url(../img/metamodel/openclass.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.default_ico_open {
+    margin-right:2px; background:url(../img/metamodel/openclass.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+/* ģ������չ���۵�    ����Ԫģ�ͽڵ���ͼ��*/
+.ztree li span.button.package_ico_close {
+    margin-right:2px; background:url(../img/metamodel/package.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.package_ico_open {
+    margin-right:2px; background:url(../img/metamodel/package.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.package_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/package.png) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+/* ������ģ��������ʽ  */
+
+/* Ĭ�� */
+.ztree li span.button.class_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/class.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.EtlAnnotate_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/EtlAnnotate.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Column_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CodeItem_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CodeItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Code_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Code.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnMapping_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ColumnMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoItem_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/InfoItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnMapping_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ColumnMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ClassifierMap_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ClassifierMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.Catalog_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Catalog.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CheckConstraint_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CheckConstraint.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CheckConstraintUsage_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CheckConstraintUsage.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnSet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ColumnSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ProcedureColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_DbColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_DbColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_FileColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_FileColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_ProcessingColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_ProcessingColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FlatFileColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/FlatFileColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NamedColumnSet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/NamedColumnSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDIndexColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDIndexColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDViewColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDViewColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureColumn_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ProcedureColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERForeignKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERForeignKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ForeignKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ForeignKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Partition_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Partition.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERPrimaryKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERPrimaryKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureSet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ProcedureSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Procedure_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Procedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDProcedure_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDProcedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BaseView_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BaseView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessView_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessViewField_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessViewField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ProcBusinessView_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ProcBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_RawSqlBusinessView_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_RawSqlBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_TextBusinessView_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_TextBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_View_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_View.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERView_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDView_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.View_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/View.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Root_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Root.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTrigger_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERTrigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTrigger_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDTrigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Trigger_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Trigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTablespace_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Table_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Table.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BaseTable_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BaseTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSourceTable_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CdbSourceTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTable_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTablespace_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTable_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTablespace_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TableMapping_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/TableMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Tablespace_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Tablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UniqueConstraint_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/UniqueConstraint.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SQLIndex_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/SQLIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Schema_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ParseSchema_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ParseSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Schema_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSchema_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CdbSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.PrimaryKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PrimaryKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLActivity_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLActivity.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLConstant_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLConstant.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLSubSystem_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLSubSystem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTransformer_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTransformer_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PERLScript_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PERLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PersisCls_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PersisCls.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonPersisCls_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/NonPersisCls.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLScript_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLSubSystem_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLSubSystem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PersisAttribute_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PersisAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonPersisAttribute_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/NonPersisAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLFile_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLScript_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTask_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLTask.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Default_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Default.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FlatFile_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/FlatFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_FlatFileFolder_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_FlatFileFolder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Index_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Index.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbIndex_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CdbIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.IndexedFeature_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/IndexedFeature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDIndex_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyRelationship_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/KeyRelationship.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UniqueKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/UniqueKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Attribute_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Attribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessAttribute_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassification_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/InfoClassification.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassificationSub_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/InfoClassificationSub.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ModelElement_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ModelElement.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Classifier_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Classifier.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Element_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Classifier.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.StructuralFeature_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/StructuralFeature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Class_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Class.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Feature_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Feature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FeatureMap_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/FeatureMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTask_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETLTask.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_CalcFields_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_CalcFields.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessThemes_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessThemes.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.EtlAnnotateFile_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/EtlAnnotateFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Organization_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Organization.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Role_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Role.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UAPContainer_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/UAPContainer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.User_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/User.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoSubject_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/InfoSubject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CustomType_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CustomType.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERModel_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERModel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassification_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/InfoClassification.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassificationSub_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/InfoClassificationSub.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Transformation_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Transformation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86TransformationInstance_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86TransformationInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Target_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Target.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Targetfield_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Targetfield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.System_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/System.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SystemLevel_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/SystemLevel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ParseSchema_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ParseSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.AnalyseFilter_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/AnalyseFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Datasource_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Datasource.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessObject_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessTheme_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessTheme.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Field_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Field.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDecode_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDecode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxEncode_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxEncode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CodeBatch_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxEncode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbDim_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CdbDim.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Dashboard_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Dashboard.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_DashboardMap_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_DashboardMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_DefaultTreeNode_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_DefaultTreeNode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Report_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Report.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ReportField_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ReportField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Schema_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_MetricReport_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_MetricReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_FreeReport_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_FreeReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Page_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Page.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ProcField_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ProcField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_PublicPages_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_PublicPages.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Respository_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Respository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SelfPages_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SelfPages.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SelfTreeNode_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SelfTreeNode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BusinessObject_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BusinessObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CandidateKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CandidateKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbKpi_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CdbKpi.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbReport_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CdbReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Calculation_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Calculation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TechnicalObject_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/TechnicalObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSourceCol_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CdbSourceCol.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Manager_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Manager.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.etlFolder_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/etlFolder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Transformer_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Transformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Job_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_Job.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SimpleReport_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SimpleReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_CalcField_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_CalcField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataItem_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDB2.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataSource_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataSource.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Project_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_ShortCut_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_ShortCut.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_SubReport_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_SubReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_ReportField_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_ReportField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Report_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Report.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_QuerySubject_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_QuerySubject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_QueryItem_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_QueryItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Package_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Package.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_NameSpace_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_NameSpace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataObject_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Filter_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Filter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Folder_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Model_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Model.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CTransformerStage_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/CTransformerStage.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Category_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_Category.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Repository_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_Repository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Parameter_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_Parameter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Project_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Ds_Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Etl_check_tran_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Etl_check_tran.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxAggregator_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxAggregator.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFF_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxCFF.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFFInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxCFFInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxChangeApply_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxChangeApply.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradataOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxTeradataOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradataInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxTeradataInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradata_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxTeradata.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybaseOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSybaseOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybaseInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSybaseInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSwitch_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSwitch.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybase_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSybase.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSort_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSort.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSurrogateKeyGenerator_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSurrogateKeyGenerator.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSVTransformer_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSVTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFFOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxCFFOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxChangeCapture_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxChangeCapture.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederationOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederationOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederation_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederationInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederationInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCompare_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxCompare.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCopy_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxCopy.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCompress_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxCompress.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDataSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDifference_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDifference.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSetInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDataSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSetOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDataSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2InputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDB2InputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2OutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxDB2OutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExpand_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxExpand.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalFilter_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxExternalFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalSource_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxExternalFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalSourceOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxExternalSourceOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalTarget_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxExternalTarget.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFTP_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxFTP.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPS_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPS.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFunnel_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxFunnel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxGeneric_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxGeneric.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSetInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxFileSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxFileSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalTargetInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxExternalTargetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFilter_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxJoin_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxJoin.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSetOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxFileSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbc_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxOdbc.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxRemDup_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxRemDup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSAS_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSAS.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFileInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFileInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookup_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxLookup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracle_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxOracle.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookupFileSet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxLookupFileSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxModify_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxModify.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFile_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbcOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxOdbcOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFileOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFileOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSetOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezza_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxNetezza.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookupFileSetInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxLookupFileSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSetInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxMerge_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxMerge.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezzaInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxNetezzaInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracleInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxOracleInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezzaOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxNetezzaOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbcInputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxOdbcInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracleOutputPins_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PxOracleOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Domain_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Domain.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Entity_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Entity.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERSequence_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ERSequence.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyGroup_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/KeyGroup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SubjectArea_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/SubjectArea.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ValidationRule_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ValidationRule.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TeradataMacro_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/TeradataMacro.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonUniqueKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/NonUniqueKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.RelationshipEnd_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/RelationshipEnd.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Relationship_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Relationship.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyGroupMember_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/KeyGroupMember.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ModelLibrary_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ModelLibrary.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Folder_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Mapping_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Mapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Source_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Source.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Project_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86TransformfieldInstance_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86TransformfieldInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Sourcefield_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Sourcefield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86MappletInstance_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86MappletInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Transformfield_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Transformfield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Mapplet_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Mapplet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86PowerMart_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86PowerMart.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Repository_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/Pc86Repository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDKey_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PowerDesigner_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PowerDesigner.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDSequence_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/PDSequence.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.ManagedObject_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ManagedObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETL-Column_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/ETL-Column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+/* ������ģ��������ʽ  */
+
+/* Ĭ�� */
+.ztree li span.button.class_ico_close {
+    margin-right:2px; background:url(../img/metamodel/class.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.EtlAnnotate_ico_close {
+    margin-right:2px; background:url(../img/metamodel/EtlAnnotate.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Column_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CodeItem_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CodeItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Code_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Code.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnMapping_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ColumnMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoItem_ico_close {
+    margin-right:2px; background:url(../img/metamodel/InfoItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnMapping_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ColumnMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ClassifierMap_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ClassifierMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.Catalog_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Catalog.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CheckConstraint_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CheckConstraint.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CheckConstraintUsage_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CheckConstraintUsage.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnSet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ColumnSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ProcedureColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_DbColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_DbColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_FileColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_FileColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_ProcessingColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_ProcessingColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FlatFileColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/FlatFileColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NamedColumnSet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/NamedColumnSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDIndexColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDIndexColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDViewColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDViewColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureColumn_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ProcedureColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERForeignKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERForeignKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ForeignKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ForeignKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Partition_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Partition.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERPrimaryKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERPrimaryKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureSet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ProcedureSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Procedure_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Procedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDProcedure_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDProcedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BaseView_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BaseView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessView_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessViewField_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessViewField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ProcBusinessView_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ProcBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_RawSqlBusinessView_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_RawSqlBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_TextBusinessView_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_TextBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_View_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_View.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERView_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDView_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.View_ico_close {
+    margin-right:2px; background:url(../img/metamodel/View.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Root_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Root.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTrigger_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERTrigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTrigger_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDTrigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Trigger_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Trigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTablespace_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Table_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Table.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BaseTable_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BaseTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSourceTable_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CdbSourceTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTable_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTablespace_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTable_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTablespace_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TableMapping_ico_close {
+    margin-right:2px; background:url(../img/metamodel/TableMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Tablespace_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Tablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UniqueConstraint_ico_close {
+    margin-right:2px; background:url(../img/metamodel/UniqueConstraint.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SQLIndex_ico_close {
+    margin-right:2px; background:url(../img/metamodel/SQLIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Schema_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ParseSchema_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ParseSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Schema_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSchema_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CdbSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.PrimaryKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PrimaryKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLActivity_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLActivity.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLConstant_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLConstant.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLSubSystem_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLSubSystem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTransformer_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTransformer_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PERLScript_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PERLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PersisCls_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PersisCls.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonPersisCls_ico_close {
+    margin-right:2px; background:url(../img/metamodel/NonPersisCls.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLScript_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLSubSystem_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLSubSystem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PersisAttribute_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PersisAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonPersisAttribute_ico_close {
+    margin-right:2px; background:url(../img/metamodel/NonPersisAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLFile_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLScript_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTask_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLTask.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Default_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Default.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FlatFile_ico_close {
+    margin-right:2px; background:url(../img/metamodel/FlatFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_FlatFileFolder_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_FlatFileFolder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Index_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Index.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbIndex_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CdbIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.IndexedFeature_ico_close {
+    margin-right:2px; background:url(../img/metamodel/IndexedFeature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDIndex_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyRelationship_ico_close {
+    margin-right:2px; background:url(../img/metamodel/KeyRelationship.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UniqueKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/UniqueKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Attribute_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Attribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessAttribute_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassification_ico_close {
+    margin-right:2px; background:url(../img/metamodel/InfoClassification.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassificationSub_ico_close {
+    margin-right:2px; background:url(../img/metamodel/InfoClassificationSub.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ModelElement_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ModelElement.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Classifier_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Classifier.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Element_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Classifier.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.StructuralFeature_ico_close {
+    margin-right:2px; background:url(../img/metamodel/StructuralFeature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Class_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Class.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Feature_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Feature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FeatureMap_ico_close {
+    margin-right:2px; background:url(../img/metamodel/FeatureMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTask_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETLTask.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_CalcFields_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_CalcFields.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessThemes_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessThemes.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.EtlAnnotateFile_ico_close {
+    margin-right:2px; background:url(../img/metamodel/EtlAnnotateFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Organization_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Organization.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Role_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Role.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UAPContainer_ico_close {
+    margin-right:2px; background:url(../img/metamodel/UAPContainer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.User_ico_close {
+    margin-right:2px; background:url(../img/metamodel/User.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoSubject_ico_close {
+    margin-right:2px; background:url(../img/metamodel/InfoSubject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CustomType_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CustomType.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERModel_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERModel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassification_ico_close {
+    margin-right:2px; background:url(../img/metamodel/InfoClassification.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassificationSub_ico_close {
+    margin-right:2px; background:url(../img/metamodel/InfoClassificationSub.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Transformation_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Transformation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86TransformationInstance_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86TransformationInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Target_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Target.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Targetfield_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Targetfield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.System_ico_close {
+    margin-right:2px; background:url(../img/metamodel/System.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SystemLevel_ico_close {
+    margin-right:2px; background:url(../img/metamodel/SystemLevel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ParseSchema_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ParseSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.AnalyseFilter_ico_close {
+    margin-right:2px; background:url(../img/metamodel/AnalyseFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Datasource_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Datasource.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessObject_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessTheme_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessTheme.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Field_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Field.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDecode_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDecode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxEncode_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxEncode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CodeBatch_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxEncode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbDim_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CdbDim.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Dashboard_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Dashboard.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_DashboardMap_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_DashboardMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_DefaultTreeNode_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_DefaultTreeNode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Report_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Report.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ReportField_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ReportField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Schema_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_MetricReport_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_MetricReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_FreeReport_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_FreeReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Page_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Page.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ProcField_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ProcField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_PublicPages_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_PublicPages.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Respository_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Respository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SelfPages_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SelfPages.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SelfTreeNode_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SelfTreeNode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BusinessObject_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BusinessObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CandidateKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CandidateKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbKpi_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CdbKpi.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbReport_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CdbReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Calculation_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Calculation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TechnicalObject_ico_close {
+    margin-right:2px; background:url(../img/metamodel/TechnicalObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSourceCol_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CdbSourceCol.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Manager_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Manager.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.etlFolder_ico_close {
+    margin-right:2px; background:url(../img/metamodel/etlFolder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Transformer_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Transformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Job_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_Job.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SimpleReport_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SimpleReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_CalcField_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_CalcField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataItem_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDB2.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataSource_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataSource.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Project_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_ShortCut_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_ShortCut.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_SubReport_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_SubReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_ReportField_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_ReportField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Report_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Report.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_QuerySubject_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_QuerySubject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_QueryItem_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_QueryItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Package_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Package.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_NameSpace_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_NameSpace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataObject_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Filter_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Filter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Folder_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Model_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Model.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CTransformerStage_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CTransformerStage.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Category_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_Category.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Repository_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_Repository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Parameter_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_Parameter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Project_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Ds_Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Etl_check_tran_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Etl_check_tran.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxAggregator_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxAggregator.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFF_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxCFF.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFFInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxCFFInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxChangeApply_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxChangeApply.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradataOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxTeradataOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradataInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxTeradataInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradata_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxTeradata.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybaseOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSybaseOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybaseInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSybaseInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSwitch_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSwitch.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybase_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSybase.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSort_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSort.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSurrogateKeyGenerator_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSurrogateKeyGenerator.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSVTransformer_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSVTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFFOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxCFFOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxChangeCapture_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxChangeCapture.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederationOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederationOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederation_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederationInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederationInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCompare_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxCompare.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCopy_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxCopy.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCompress_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxCompress.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDataSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDifference_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDifference.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSetInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDataSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSetOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDataSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2InputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDB2InputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2OutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxDB2OutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExpand_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxExpand.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalFilter_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxExternalFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalSource_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxExternalFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalSourceOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxExternalSourceOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalTarget_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxExternalTarget.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFTP_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxFTP.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPS_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPS.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFunnel_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxFunnel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxGeneric_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxGeneric.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSetInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxFileSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxFileSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalTargetInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxExternalTargetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFilter_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxJoin_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxJoin.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSetOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxFileSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbc_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxOdbc.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxRemDup_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxRemDup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSAS_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSAS.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFileInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFileInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookup_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxLookup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracle_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxOracle.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookupFileSet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxLookupFileSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxModify_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxModify.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFile_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbcOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxOdbcOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFileOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFileOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSetOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezza_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxNetezza.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookupFileSetInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxLookupFileSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSetInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxMerge_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxMerge.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezzaInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxNetezzaInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracleInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxOracleInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezzaOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxNetezzaOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbcInputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxOdbcInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracleOutputPins_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PxOracleOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Domain_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Domain.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Entity_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Entity.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERSequence_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ERSequence.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyGroup_ico_close {
+    margin-right:2px; background:url(../img/metamodel/KeyGroup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SubjectArea_ico_close {
+    margin-right:2px; background:url(../img/metamodel/SubjectArea.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ValidationRule_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ValidationRule.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TeradataMacro_ico_close {
+    margin-right:2px; background:url(../img/metamodel/TeradataMacro.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonUniqueKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/NonUniqueKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.RelationshipEnd_ico_close {
+    margin-right:2px; background:url(../img/metamodel/RelationshipEnd.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Relationship_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Relationship.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyGroupMember_ico_close {
+    margin-right:2px; background:url(../img/metamodel/KeyGroupMember.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ModelLibrary_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ModelLibrary.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Folder_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Mapping_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Mapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Source_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Source.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Project_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86TransformfieldInstance_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86TransformfieldInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Sourcefield_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Sourcefield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86MappletInstance_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86MappletInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Transformfield_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Transformfield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Mapplet_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Mapplet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86PowerMart_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86PowerMart.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Repository_ico_close {
+    margin-right:2px; background:url(../img/metamodel/Pc86Repository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDKey_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PowerDesigner_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PowerDesigner.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDSequence_ico_close {
+    margin-right:2px; background:url(../img/metamodel/PDSequence.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ManagedObject_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ManagedObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETL-Column_ico_close {
+    margin-right:2px; background:url(../img/metamodel/ETL-Column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+/* ������ģ��������ʽ  */
+
+/* Ĭ�� */
+.ztree li span.button.class_ico_open {
+    margin-right:2px; background:url(../img/metamodel/class.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.EtlAnnotate_ico_open {
+    margin-right:2px; background:url(../img/metamodel/EtlAnnotate.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Column_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CodeItem_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CodeItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Code_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Code.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnMapping_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ColumnMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoItem_ico_open {
+    margin-right:2px; background:url(../img/metamodel/InfoItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnMapping_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ColumnMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ClassifierMap_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ClassifierMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.Catalog_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Catalog.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CheckConstraint_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CheckConstraint.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CheckConstraintUsage_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CheckConstraintUsage.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ColumnSet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ColumnSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ProcedureColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_DbColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_DbColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_FileColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_FileColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_ProcessingColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_ProcessingColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FlatFileColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/FlatFileColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NamedColumnSet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/NamedColumnSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDIndexColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDIndexColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDViewColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDViewColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureColumn_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ProcedureColumn.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERForeignKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERForeignKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ForeignKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ForeignKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Partition_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Partition.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERPrimaryKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERPrimaryKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ProcedureSet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ProcedureSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Procedure_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Procedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDProcedure_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDProcedure.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BaseView_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BaseView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessView_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessViewField_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessViewField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ProcBusinessView_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ProcBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_RawSqlBusinessView_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_RawSqlBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_TextBusinessView_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_TextBusinessView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_View_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_View.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERView_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDView_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDView.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.View_ico_open {
+    margin-right:2px; background:url(../img/metamodel/View.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Root_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Root.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTrigger_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERTrigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTrigger_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDTrigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Trigger_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Trigger.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTablespace_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Table_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Table.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BaseTable_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BaseTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSourceTable_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CdbSourceTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTable_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERTablespace_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTable_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDTable.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDTablespace_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDTablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TableMapping_ico_open {
+    margin-right:2px; background:url(../img/metamodel/TableMapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Tablespace_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Tablespace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UniqueConstraint_ico_open {
+    margin-right:2px; background:url(../img/metamodel/UniqueConstraint.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SQLIndex_ico_open {
+    margin-right:2px; background:url(../img/metamodel/SQLIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Schema_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ParseSchema_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ParseSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Schema_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSchema_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CdbSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.PrimaryKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PrimaryKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLActivity_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLActivity.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLConstant_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLConstant.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLSubSystem_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLSubSystem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTransformer_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTransformer_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PERLScript_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PERLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PersisCls_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PersisCls.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonPersisCls_ico_open {
+    margin-right:2px; background:url(../img/metamodel/NonPersisCls.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLScript_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLSubSystem_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLSubSystem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PersisAttribute_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PersisAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonPersisAttribute_ico_open {
+    margin-right:2px; background:url(../img/metamodel/NonPersisAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLFile_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLScript_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLScript.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTask_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLTask.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Default_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Default.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FlatFile_ico_open {
+    margin-right:2px; background:url(../img/metamodel/FlatFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_FlatFileFolder_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_FlatFileFolder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Index_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Index.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbIndex_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CdbIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.IndexedFeature_ico_open {
+    margin-right:2px; background:url(../img/metamodel/IndexedFeature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDIndex_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDIndex.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyRelationship_ico_open {
+    margin-right:2px; background:url(../img/metamodel/KeyRelationship.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UniqueKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/UniqueKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Attribute_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Attribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessAttribute_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessAttribute.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassification_ico_open {
+    margin-right:2px; background:url(../img/metamodel/InfoClassification.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassificationSub_ico_open {
+    margin-right:2px; background:url(../img/metamodel/InfoClassificationSub.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ModelElement_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ModelElement.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Classifier_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Classifier.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Element_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Classifier.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.StructuralFeature_ico_open {
+    margin-right:2px; background:url(../img/metamodel/StructuralFeature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Class_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Class.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Feature_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Feature.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.FeatureMap_ico_open {
+    margin-right:2px; background:url(../img/metamodel/FeatureMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETLTask_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETLTask.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_CalcFields_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_CalcFields.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessThemes_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessThemes.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.EtlAnnotateFile_ico_open {
+    margin-right:2px; background:url(../img/metamodel/EtlAnnotateFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Organization_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Organization.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Role_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Role.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.UAPContainer_ico_open {
+    margin-right:2px; background:url(../img/metamodel/UAPContainer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.User_ico_open {
+    margin-right:2px; background:url(../img/metamodel/User.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoSubject_ico_open {
+    margin-right:2px; background:url(../img/metamodel/InfoSubject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CustomType_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CustomType.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERModel_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERModel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassification_ico_open {
+    margin-right:2px; background:url(../img/metamodel/InfoClassification.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.InfoClassificationSub_ico_open {
+    margin-right:2px; background:url(../img/metamodel/InfoClassificationSub.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Transformation_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Transformation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86TransformationInstance_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86TransformationInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Target_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Target.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Targetfield_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Targetfield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.System_ico_open {
+    margin-right:2px; background:url(../img/metamodel/System.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SystemLevel_ico_open {
+    margin-right:2px; background:url(../img/metamodel/SystemLevel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ParseSchema_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ParseSchema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.AnalyseFilter_ico_open {
+    margin-right:2px; background:url(../img/metamodel/AnalyseFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Datasource_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Datasource.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessObject_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_BusinessTheme_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_BusinessTheme.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Field_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Field.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDecode_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDecode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxEncode_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxEncode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CodeBatch_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxEncode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbDim_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CdbDim.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Dashboard_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Dashboard.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_DashboardMap_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_DashboardMap.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_DefaultTreeNode_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_DefaultTreeNode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Report_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Report.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ReportField_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ReportField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Schema_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Schema.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_MetricReport_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_MetricReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_FreeReport_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_FreeReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Page_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Page.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_ProcField_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_ProcField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_PublicPages_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_PublicPages.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_Respository_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_Respository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SelfPages_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SelfPages.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SelfTreeNode_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SelfTreeNode.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BusinessObject_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BusinessObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CandidateKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CandidateKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbKpi_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CdbKpi.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbReport_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CdbReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Calculation_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Calculation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TechnicalObject_ico_open {
+    margin-right:2px; background:url(../img/metamodel/TechnicalObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CdbSourceCol_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CdbSourceCol.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Manager_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Manager.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.etlFolder_ico_open {
+    margin-right:2px; background:url(../img/metamodel/etlFolder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Transformer_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Transformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Job_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_Job.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_SimpleReport_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SimpleReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.BIOffice6_CalcField_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_CalcField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataItem_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDB2.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataSource_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataSource.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Project_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_ShortCut_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_ShortCut.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_SubReport_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_SubReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_ReportField_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_ReportField.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Report_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Report.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_QuerySubject_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_QuerySubject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_QueryItem_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_QueryItem.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Package_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Package.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_NameSpace_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_NameSpace.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_DataObject_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_DataObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Filter_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Filter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Folder_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Cognos8_Model_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Cognos8_Model.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.CTransformerStage_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CTransformerStage.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Category_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_Category.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Repository_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_Repository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Parameter_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_Parameter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Ds_Project_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Ds_Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Etl_check_tran_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Etl_check_tran.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxAggregator_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxAggregator.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFF_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxCFF.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFFInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxCFFInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxChangeApply_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxChangeApply.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradataOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxTeradataOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradataInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxTeradataInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxTeradata_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxTeradata.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybaseOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSybaseOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybaseInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSybaseInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSwitch_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSwitch.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSybase_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSybase.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSort_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSort.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSurrogateKeyGenerator_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSurrogateKeyGenerator.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSVTransformer_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSVTransformer.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCFFOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxCFFOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxChangeCapture_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxChangeCapture.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederationOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederationOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederation_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederation.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PXClassicFederationInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PXClassicFederationInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCompare_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxCompare.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCopy_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxCopy.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxCompress_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxCompress.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDataSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDifference_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDifference.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSetInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDataSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDataSetOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDataSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2InputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDB2InputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxDB2OutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxDB2OutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExpand_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxExpand.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalFilter_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxExternalFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalSource_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxExternalFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalSourceOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxExternalSourceOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalTarget_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxExternalTarget.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFTP_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxFTP.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPS_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPS.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFunnel_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxFunnel.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxGeneric_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxGeneric.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSetInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxFileSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxFileSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxExternalTargetInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxExternalTargetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFilter_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxFilter.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxJoin_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxJoin.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxFileSetOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxFileSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbc_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxOdbc.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxRemDup_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxRemDup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSAS_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSAS.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFileInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFileInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookup_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxLookup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracle_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxOracle.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxInformixXPSOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxInformixXPSOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookupFileSet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxLookupFileSet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxModify_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxModify.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFile_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFile.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbcOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxOdbcOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxSequentialFileOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxSequentialFileOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSetOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSetOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezza_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxNetezza.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxLookupFileSetInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxLookupFileSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxParSASDataSetInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxParSASDataSetInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxMerge_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxMerge.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezzaInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxNetezzaInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracleInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxOracleInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxNetezzaOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxNetezzaOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOdbcInputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxOdbcInputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PxOracleOutputPins_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PxOracleOutputPins.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Domain_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Domain.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Entity_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Entity.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ERSequence_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ERSequence.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyGroup_ico_open {
+    margin-right:2px; background:url(../img/metamodel/KeyGroup.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.SubjectArea_ico_open {
+    margin-right:2px; background:url(../img/metamodel/SubjectArea.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ValidationRule_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ValidationRule.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.TeradataMacro_ico_open {
+    margin-right:2px; background:url(../img/metamodel/TeradataMacro.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.NonUniqueKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/NonUniqueKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.RelationshipEnd_ico_open {
+    margin-right:2px; background:url(../img/metamodel/RelationshipEnd.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Relationship_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Relationship.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.KeyGroupMember_ico_open {
+    margin-right:2px; background:url(../img/metamodel/KeyGroupMember.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ModelLibrary_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ModelLibrary.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Folder_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Folder.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Mapping_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Mapping.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Source_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Source.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Project_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Project.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86TransformfieldInstance_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86TransformfieldInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Sourcefield_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Sourcefield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86MappletInstance_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86MappletInstance.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Transformfield_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Transformfield.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Mapplet_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Mapplet.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86PowerMart_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86PowerMart.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.Pc86Repository_ico_open {
+    margin-right:2px; background:url(../img/metamodel/Pc86Repository.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDKey_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDKey.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PowerDesigner_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PowerDesigner.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.PDSequence_ico_open {
+    margin-right:2px; background:url(../img/metamodel/PDSequence.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+
+.ztree li span.button.ManagedObject_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ManagedObject.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.ETL-Column_ico_open {
+    margin-right:2px; background:url(../img/metamodel/ETL-Column.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.bmMenu_ico_close {
+    margin-right:2px; background:url(../img/metamodel/menu.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.bmMenu_ico_open {
+    margin-right:2px; background:url(../img/metamodel/menu.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.menu01_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/datatype.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.menu02_ico_open {
+    margin-right:2px; background:url(../img/metamodel/docs_open.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.menu02_ico_close {
+    margin-right:2px; background:url(../img/metamodel/docs-close.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.org_ico_close {
+    margin-right:2px; background:url(../img/metamodel/CodeValue.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.org_ico_open {
+    margin-right:2px; background:url(../img/metamodel/CodeValue.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.org01_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_SimpleReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.org02_ico_open {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_FreeReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.org02_ico_close {
+    margin-right:2px; background:url(../img/metamodel/BIOffice6_FreeReport.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}
+.ztree li span.button.priv01_ico_docu {
+    margin-right:2px; background:url(../img/metamodel/SystemRoot.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle;
+}

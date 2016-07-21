@@ -1,0 +1,175 @@
+
+#__01 {
+/* /*   position:absolute;
+ */ left:0px;
+    margin-top:-55px;
+    width:99%;
+    height:100%;
+    border: 1px solid red; 
+}
+.gf_all{
+    width:100%;
+    height:100%;
+}
+.gf_all .center{
+    width: 1150px;
+    height: auto;
+    z-index: 1;
+    margin-left: 98px;
+    margin-top: 80px;
+    background-color: #FFFFFF;
+    border: 1px solid #dadada;
+    clear: both;/*閿熸枻鎷烽敓*/
+    overflow: auto;
+}
+
+.gf_all .tiledcenter{
+    width: 1150px;
+    height: auto;
+    z-index: 1;
+    margin-left: 98px;
+    background-color: #FFFFFF;
+    border: 1px solid #dadada;
+    clear: both;/*閿熸枻鎷烽敓*/
+    overflow: auto;
+}
+
+.gf_all .center .center_left_content {
+    width:73%; 
+    float:left;
+    border: 0px solid red;
+}
+.gf_all .center .center_right_content {
+    width: 25%;
+    height: 420px;
+    z-index: 11;
+    float: right;
+    margin-right:20px;
+    margin-top:50px;
+    border: 0px solid red;
+}
+
+
+#CGBx20home-01 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1344px;
+    height:137px;
+}
+
+#CGBx20home-02 {
+    position: absolute;
+    left: 0px;
+    top: 92px;
+    width: 1171px;
+    height: 45px;
+}
+
+#CGBx20home-03 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1344px;
+    height: 419px;
+    /*background-image: url(images/CGB-home_03.png);*/
+}
+
+#CGBx20home-04 {
+    position:absolute;
+    left:0px;
+    top:400px;
+    width:1344px;
+    height:560px;
+}
+
+#CGBx20home-05 {
+    position:absolute;
+    left:0px;
+    top:970px;
+    width:1344px;
+    height:580px;
+}
+
+#CGBx20home-06 {
+    position:absolute;
+    left:0px;
+    top:1596px;
+    width:1344px;
+    height:200px;
+}
+
+
+/*---------top and bottom------------------------------------------------*/
+    #head_div {
+        width: auto;
+        height:92px;
+    }
+    
+    #head_div .logo_div {
+        width: auto;
+        height: 92px;
+    }
+
+    #head_div .search_div {
+        position:absolute;
+        left:550px;
+        top:20px;
+        width:400px;
+        height:92px;
+}
+    
+    #head_div .login_reg_div {
+        position:absolute;
+        left:1000px;
+        top:30px;
+        width:200px;
+        height:92px;
+    }
+    
+    #head_div .login_reg_div .login_div{
+        float : left;
+    }
+    
+    #head_div .login_reg_div .reg.div{
+        float : left;
+    }
+
+    #home_foot_div {
+        position:absolute;
+        left:0px;
+        width:1344px;
+        height:40px;
+        top:2050px;
+        /*background-image: url('../images/CGB-home_07.png');*/
+    }
+    
+    #foot_div {
+        position:absolute;
+        left:0px;
+        width:1344px;
+        height:176px;
+        background-image: url('../imgs/CGB-home_07.png');
+    }
+    
+    #foot_div .xinshoushanglu {
+        position:absolute;
+        top:50px;
+        left:500px;
+        width:200px;
+        height:176px;
+    }
+
+    #foot_div .woyouyiwen {
+        position:absolute;
+        top:50px;
+        left:800px;
+        width:200px;
+        height:176px;
+    }
+
+    #foot_div .banquan {
+        position:absolute;
+        top:130px;
+        left:600px;
+    }

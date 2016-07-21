@@ -1,0 +1,257 @@
+.demolist {
+    font-size: 0;
+    *word-spacing: -1px;
+}
+
+.demolist li {
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-right: 10px;
+    *display: inline;
+    *zoom: 1;
+    word-spacing: normal;
+    letter-spacing: normal;
+    vertical-align: top;
+}
+
+.active {
+    background: #eee;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    background: #ECECEC;
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.menu ul {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 10px;
+    padding: 2px 6px;
+}
+
+.menu ul li.active {
+    background: #fff;
+}
+
+.menu ul li a {
+    line-height: 32px;
+    padding: 0 4px;
+}
+
+.code {
+    padding: 10px 0;
+}
+
+.code h3 span {
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+pre {
+    background: #eee;
+    padding: 10px;
+}
+
+.slider {
+    height: 350px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    width:1180px;
+}
+
+.sliderbox {
+    position: relative;
+    margin-left: -5px;
+} 
+.sliderbox li {
+    margin-left: 10px;
+    text-align: left;
+    width: 285px;
+}
+
+.slidernav {
+    position: absolute;
+    right: 20px;
+    top:350px;
+    width: 100%;
+    color: #fff;
+    font-size: 0;
+    *word-spacing: -1px;
+    text-align: right;
+}
+
+.slidernav li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    font-size: 14px;
+    margin-left: 10px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.slidernav li a {
+    width: 16px;
+    padding: 2px 4px;
+    height: 12px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.slidernav li.current a {
+    background: #3B8DD1;
+    color: #fff;
+}
+
+@media screen and (-webkit-min-device-antio:0) {
+    .slidernav {
+        letter-spacing: -5px;
+    }
+}
+
+.slider .prev,.slider .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    width: 61px;
+    height: 61px;
+    left: 0;
+    background: url(../imgs/slider/ft_icons.png) 0 0 no-repeat;
+    text-indent: -9999px;
+}
+
+.slider .next {
+    right: 0;
+    left: auto;
+    background-position: 0 -61px;
+}
+
+.card tr{
+    height: 30px;
+}
+
+.card td{
+    color: #999999;
+    font-size: 12px;
+    font-family: '微软雅黑';
+    font-style: normal;
+}
+
+
+.card .altNum {
+    float: left;width:40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card .altSolid{
+    border-bottom:1px  solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+.card .altTwoSolid{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-bottom:2px solid #ccc;
+    padding-bottom: 30px;
+}
+.card .altTile {
+    color: #FFFFFF;
+    font-size:20px;
+    z-index: 1;
+    text-align:center;
+    font-family: '微软雅黑';
+    position:absolute;
+    width: 285px;
+    font-weight: bolder;
+}
+.card .altTitleImg {
+    position:absolute;top:0px;width: 285px;text-align: right;z-index: 0;
+}
+.card .altDes{
+    padding: 10px;height:100px;color: #FFFFFF;z-index: 1;
+    width:295x;
+}
+
+.card .altDivType{
+    float: left;width: 70px;
+}
+.card .altDivSum{
+    float: left;width:65px;
+}
+.card .altDivSumGreen{
+    float: left;
+    color: #4db159;
+    width:65px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.card .altDivSumYellow{
+    float: left;
+    color: #ffad33;
+    width:65px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.card .altDivSumRed{
+    float: left;
+    color: #e62e31;
+    width:65px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.card .altDiv{
+    width: 285px; height: 350px; background: #FFFFFF
+}
+li {
+    list-style: none;
+}
+td {
+    font-family: "宋体";
+    font-size: 14px;
+    font-style: normal;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.sliderbox {
+    position: relative;
+    margin-left: -5px;
+}
+ul {
+    list-style: none;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}

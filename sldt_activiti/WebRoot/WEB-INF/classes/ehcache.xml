@@ -1,0 +1,45 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../main/config/ehcache.xsd" name="tc"
+         updateCheck="false">
+
+    <defaultCache
+            maxElementsInMemory="1000"
+            eternal="false"
+	        timeToLiveSeconds="7200"
+	        timeToIdleSeconds="3600"            
+            overflowToDisk="true">
+    </defaultCache>
+    
+    <!-- eternal：永久缓存 -->
+    <!-- 查询资源，加载资源用的缓存策略List<Resource> resources = criteria.list(); -->
+    <cache name="com.itcast.security.domain.Resource"
+        maxElementsInMemory="10000"
+        eternal="true"
+        overflowToDisk="true" />
+    
+    <!-- Set<Role> resourceRoles = resource.getRoles();这个代码用的缓存策略 -->
+    <cache name="com.itcast.security.domain.Resource.roles"
+        maxElementsInMemory="10000"
+        eternal="true"
+        overflowToDisk="true" />  
+        
+    <cache name="com.itcast.security.domain.User"
+        maxElementsInMemory="1000"
+        eternal="true"
+        overflowToDisk="true" />
+        
+    <cache name="com.itcast.security.domain.User.roles"
+        maxElementsInMemory="10000"
+        eternal="true"
+        overflowToDisk="true" /> 
+        
+    <cache name="com.itcast.security.domain.Menu"
+        maxElementsInMemory="10000"
+        eternal="true"
+        overflowToDisk="true" />
+        
+    <cache name="com.itcast.security.domain.Menu.children"
+        maxElementsInMemory="10000"
+        eternal="true"
+        overflowToDisk="true" />                    
+            
+</ehcache>

@@ -1,0 +1,221 @@
+.background-color {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top:13px;
+	z-index: 2;
+	background-image: url(../imgs/edit/database_save.png);
+	left: 955px;
+}
+
+#verModuleData tr.over td,
+#verTableData tr.over td,
+#altColumnItem tr.over td,
+#altTableItem tr.over td,
+#altModuleItem tr.over td,
+#verColumnData tr.over td {  
+        background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+} 
+.save_eddit {
+	position: absolute;  
+	width: 44px;
+	height: 18px;
+	top: 10px;
+	z-index: 1;
+	font-size:12px;
+	font-family: "����";
+	left: 950px;
+}
+
+	.showDivAltDetail {
+		width:610px;
+		height:370px; 
+		padding:20px; 
+		border:1px solid #ccc; 
+		overflow:auto;
+	}
+	.showDivBut {
+		padding-top:20px;
+		padding-left:0px;
+		text-align: left;
+		border:0px solid #ccc; 
+	}
+	
+	.but {
+		background:url(../imgs/but/1.png);
+		height: 34px;
+		width: 83px;
+		font-size:15px;
+		font-family: "����";
+		border-top-width: 0px;
+		border-right-width: 0px;
+		border-bottom-width: 0px;
+		border-left-width: 0px;
+		border-top-style: solid;
+		border-right-style: solid;
+		border-bottom-style: solid;
+		border-left-style: solid;
+		cursor:pointer;
+	}
+	.okAltTile {
+		font-size:16px;
+		font-family: "����";
+		
+	}
+	
+.data_table_alt_detail {
+	border-collapse: collapse;
+	width:791; 
+	border:0;
+	cellpadding:0; 
+	cellspacing:0;
+	table-layout: fixed;
+	
+}
+
+.data_table_alt_detail th {
+	font-family: "����";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	background-color: #ffe7da;
+	text-align: center;
+	height: 30px;
+	/*width: auto;
+	 line-height:200%; */
+	border: 1px solid #e0e0e0;
+	
+}
+
+.data_table_alt_detail td {
+	font-family: "����";
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	height: 25px;
+	width: auto;
+	border: 1px solid #e0e0e0;
+	word-break: break-all;
+    word-wrap:break-word;
+}
+
+
+.altItemcontent{
+	width: 780px;
+	height: auto;
+	background-color: #FFFFFF;
+	border: 0px solid #dadada;
+}
+
+.table_add {
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	line-height: 33px;
+	z-index: 3;
+	left: 920px;
+	top:50px;
+	font-family: "΢���ź�";
+	font-size: 13px;
+	color: #080808;
+}
+.search_col_edit_page_left {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top:10px;
+	z-index: 1;
+	background-image: url(../imgs/ny_16.png);
+	left: 950px;
+}
+
+.search_col_edit_page_right {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top:10px;
+	z-index: 2;
+	left: 1023px;
+	background-image: url(../imgs/ny_18.png);
+}
+
+.search_col_edit_page_mid {
+	position: absolute;
+	width: 35px;
+	height: 17px;
+	z-index: 3;
+	top:7px;
+	left: 980px;
+	font-family: "����";
+	font-size: 16px;
+	color: #080808;
+}
+
+
+
+
+
+
+.list1{
+	list-style: none;
+	width:100%;
+	margin:0px;
+	padding:0px
+}
+
+.list1 li{
+	font-family: "瀹嬩綋";
+	float:left;
+	width:25%;
+	line-height: 25px;
+	border-bottom:1px  dashed #ccc;
+
+	}
+	.list1 .cl1,.list1 .cl3{
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+	width:12%;
+	
+	}
+	
+	.list1 .tiledcl5{
+	font-size: 12px;
+	color: #080808;
+	width:83%;
+	
+	}
+	
+	.list1 .cl2,.list1 .cl4{
+	font-size: 12px;
+	color: #080808;
+	width:33%;
+	
+	}
+	
+	.ulstyle{
+	list-style: none;
+	width:100%;
+	margin:0px;
+	padding:0px
+}
+#change_03 {
+	width: 100%;
+	height: 33px;
+	z-index: 2;
+	background-image: url(../imgs/ny_04.png);
+	overflow: hidden;
+}
+#change_05 {
+	width: 122px;
+	height: 14px;
+	z-index: 1;
+	margin-left:15px;
+	margin-top:5px;
+	font-family: "宋体";
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+}

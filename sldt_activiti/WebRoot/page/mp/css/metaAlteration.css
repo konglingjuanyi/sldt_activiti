@@ -1,0 +1,232 @@
+#change_table_column_info {
+    width: 791px;
+    height: auto;
+    z-index: 2;
+    margin: 10px
+}
+
+#change_16 {
+    z-index: 5;
+    margin-left: 20px;
+}
+
+.data_table_alt {
+    border-collapse: collapse;
+    width:791; 
+    border:0;
+    cellpadding:0; 
+    cellspacing:0;
+    table-layout: fixed;
+    
+}
+
+.data_table_alt th {
+    font-family: "微软雅黑";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffe7da;
+    text-align: center;
+    height: 40px;
+    /*width: auto;
+     line-height:200%; */
+    border: 1px solid #e0e0e0;
+    
+}
+
+.data_table_alt td {
+    font-family: "宋体";
+    font-size: 13px;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    height: 40px;
+    width: auto;
+    border: 1px solid #e0e0e0;
+    word-break: break-all;
+    word-wrap:break-word;
+    
+}
+
+#alt_title {
+    width: 791px;
+    z-index: 2;
+    height:50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color:#efefef;
+    overflow: hidden;
+}
+
+#alt_hr {
+    width: 791px;
+    z-index: 2;
+    margin-left: 30px;
+    color:#ed1a2e;
+    overflow: hidden;
+}
+
+#alt_tile_1 {
+    z-index: 2;
+    height:40px;
+    font-size:20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+#status_0 {
+    width: 100%;
+    margin-top: 5px;
+    height: 33px;
+    z-index: 2;
+    left: 30px;
+}
+
+.alt_num_b {
+    font-size: 20px;
+    background-color: #efefef;
+}
+
+.img_div {
+    float:left; 
+    height:160px;
+    width:260px;
+    padding-top: 10px;
+}
+
+.img_content_div {
+    float:left;
+    padding-top: 15px;
+    text-align: left; 
+    font-size: 18px;
+    font-family: "宋体";
+}
+
+.alt_ver_td {
+    text-align:left; 
+    height: 30px; 
+    padding: 0 0 0 10px;
+}
+
+.findWhere0 {
+    float: left;
+    padding-left: 13px;
+}
+
+.findWhere1 {
+    float: left;
+    padding-left: 20px;
+}
+.findWhere2 {
+    float: left; 
+    width: 110px;
+}
+
+.alt_search_page_left {
+        float: right;
+        width: 18px;
+        height: 18px;
+        z-index: 1;
+        margin-right:5px;
+        background-image: url(../imgs/ny_16.png);
+    }
+    .alt_search_page_right {
+        float: right;
+        width: 18px;
+        height: 18px;
+        z-index: 2;
+        background-image: url(../imgs/ny_18.png);
+    }
+
+    .alt_search_page_mid {
+        float: right;
+        /* width: 35px; */
+        height: 17px;
+        margin-right:15px;
+        z-index: 3;
+        font-family: "宋体";
+        font-size: 16px;
+        color: #080808;
+    }
+    .showDivAltDetail {
+        width:600px;
+        height:150px; 
+        padding:10px; 
+        overflow:auto;
+        border:1px solid #ccc; 
+    }
+    
+    .showDivBut {
+        padding-top:10px;
+        padding-left:0px;
+        text-align: left;
+        border:0px solid #ccc; 
+    }
+    
+    .but {
+        background:url(../imgs/but/1.png);
+        height: 34px;
+        width: 83px;
+        font-size:15px;
+        font-family: "微软雅黑";
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        cursor:pointer;
+    }
+    .okAltTile {
+        font-size:13px;
+        font-family: "微软雅黑";
+        padding-top:20px;
+/*      background-color:#eee;
+ */     padding-bottom: 10px;
+        
+    }   
+
+    
+.data_table_alt_detail {
+    border-collapse: collapse;
+    width:791; 
+    border:0;
+    cellpadding:0; 
+    cellspacing:0;
+    table-layout: fixed;
+    
+}
+
+.data_table_alt_detail th {
+    font-family: "微软雅黑";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffe7da;
+    text-align: center;
+    height: 30px;
+    /*width: auto;
+     line-height:200%; */
+    border: 1px solid #e0e0e0;
+    
+}
+#metaAltDetailItem tr.over td  {  
+        background:#e1e1e1; /*这个将是鼠标高亮行的背景色*/  
+} 
+.data_table_alt_detail td {
+    font-family: "微软雅黑";
+    font-size: 13px;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    height: 25px;
+    width: auto;
+    border: 1px solid #e0e0e0;
+    word-break: break-all;
+    word-wrap:break-word;
+}

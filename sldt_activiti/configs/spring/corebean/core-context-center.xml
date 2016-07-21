@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<!-- 定义受环境影响易变的变量 -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="order" value="1" />
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+		<property name="locations">
+			<list>
+				<value>classpath:db.client.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- JNDI数据源 -->
+	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName">
+			<value>${db.client.sldt.mp.jndi.name}</value>
+		</property>
+	</bean>
+
+	<!-- 配置sessionFactory -->
+	<!-- <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" /> 
+		<property name="hibernateProperties">
+			<props> 
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop> 
+				<prop key="hibernate.format_sql">true</prop>
+			</props> 
+		</property> 
+		<property name="configLocations"> 
+			<list> 
+				<value> classpath*:configs/hibernate/*.hbm.xml</value>
+			</list>
+		</property> 
+	</bean> --> 
+
+	<!-- hibernate mapping files config in here -->
+	<bean id="HibernateMappingConfig" abstract="true">
+		<!-- <property name="mappingLocations"> 
+			<value>classpath:hibernate/*.hbm.xml</value>
+		</property> --> 
+		<property name="mappingResources">
+			<list>
+				<value>hibernate/mp/MyDeclareVO.hbm.xml</value>
+				<value>hibernate/mp/DeclareDetailVO.hbm.xml</value>
+				<value>hibernate/mp/MyInitDeclareVO.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- DatabaseRecognizer: The key is database product name or its regular
+		exp, and the value is to match the file name of spring/corebean/*-context-center.xml
+		when the app startup -->
+	<bean id="DatabaseRecognizer" class="com.sldt.framework.dbauto.DatabaseRecognizer">
+		<property name="databaseNames">
+			<map>
+				<entry key="Microsoft SQL Server" value="SQLServer" />
+				<entry key="DB2/.+" value="DB2" />
+				<entry key="Oracle" value="Oracle" />
+				<entry key="Teradata" value="Teradata" />
+				<entry key="MySql" value="MySql" />
+			</map>
+		</property>
+	</bean>
+
+</beans>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration PUBLIC "-//log4j/log4j Configuration//EN" "http://jakarta.apache.org/log4j/log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                value="%d{dd/MM/yy HH:mm:ss}:[%c{1}][%p]:L%L - %m\r\n"/>
+        </layout>
+    </appender>
+
+    <appender name="LOG_FILE" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="E:/EDG_PRODUCT/logs/mp.log"/>
+        <param name="Append" value="true"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd/MM/yy HH:mm:ss}:[%c{1}][%p]:L%L - %m\r\n"/>
+        </layout>
+    </appender>
+ 
+    <appender name="LF5Appender" class="org.apache.log4j.lf5.LF5Appender">
+        <param name="MaxNumberOfRecords" value="1000"/>
+    </appender>
+    
+    <logger name="org" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="freemarker" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="weblogic" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="WLW" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="wlw" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="net" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="com.ibatis" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="com.opensymphony" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="com.sun" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="com.bea" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    
+    <root>
+    	<level value="info"/>
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="STDOUT"/>
+    </root>    
+</log4j:configuration>

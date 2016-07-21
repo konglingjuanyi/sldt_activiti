@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.sldt.mds.dmc.mp.vo.MyInitDeclareVO"
+		table="T_MP_INIT_DECLARE_INFO" lazy="true" batch-size="20">
+		<id name="initDecId" type="java.lang.String">
+			<column name="INIT_DEC_ID" length="32" />
+			<generator class="assigned" />
+		</id>
+		<property name="dbCode" type="java.lang.String">
+			<column name="DB_CODE" length="100" />
+		</property>
+		<property name="actId" type="java.lang.String">
+			<column name="ACT_ID" length="64" />
+		</property>
+		<property name="altUser" type="java.lang.String">
+			<column name="ALT_USER" length="32" />
+		</property>
+		<property name="altOperDate" type="java.lang.String">
+			<column name="ALT_OPER_DATE" length="50" />
+		</property>
+		<property name="dbChName" type="java.lang.String">
+			<column name="DBCHNAME" length="300" />
+		</property>
+		<property name="dbUser" type="java.lang.String">
+			<column name="DB_USER" length="100" />
+		</property>
+		<property name="dbDesc" type="java.lang.String">
+			<column name="DB_DESC" length="500" />
+		</property>
+		<property name="actSts" type="java.lang.String">
+			<column name="ACT_STS" length="1" />
+		</property>
+		<property name="altReason" type="java.lang.String">
+			<column name="ALT_REASON" length="1024" />
+		</property>
+		<property name="instanceId" type="java.lang.String">
+			<column name="INSTANCE_ID" length="32" />
+		</property>
+		<property name="initDecName" type="java.lang.String">
+			<column name="INIT_DEC_NAME" length="128" />
+		</property>
+		<property name="lastModifier" type="java.lang.String">
+			<column name="LAST_MODIFIER" length="32" />
+		</property>
+		<property name="lastModifyTime" type="java.lang.String">
+			<column name="LAST_MODIFY_TIME" length="50" />
+		</property>
+	</class>
+</hibernate-mapping>
